@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks: 
-  - name: i want to install nginx on my server
-    yum: nginx 
-    state: present 
+   - name: i want to install nginx on my server
+     yum: nginx 
+     state: present 
 
