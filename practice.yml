@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   gather_facts: yes
-  task: 
+  tasks: 
   - name: i want to install nginx on my server
     yum: nginx 
     state: present 
