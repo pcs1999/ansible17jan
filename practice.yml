@@ -2,9 +2,9 @@
 - hosts: pcs
   become: yes
   tasks: 
-  - name: i want to install nginx
+  - name: i want to install apache2
     yum:
-      name: nginx
+      name: apache2
       state: present 
 
    
