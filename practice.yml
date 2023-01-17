@@ -1,0 +1,9 @@
+--- 
+- hosts:
+  become: yes
+  gather_facts: yes
+  task: 
+  - name: i want to install nginx on my server
+    yum: nginx 
+    state: present 
+
