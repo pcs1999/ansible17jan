@@ -1,0 +1,4 @@
+---
+- hosts: pcshost
+  become: yes 
+  
