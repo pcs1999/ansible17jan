@@ -34,7 +34,7 @@
     
   - name: Copy file with owner and permissions
     ansible.builtin.copy:
-     src: roboshop.conf 
+     src: files/roboshop.conf 
      dest: /etc/nginx/default.d/roboshop.conf 
 
   - name: restart service nginx
