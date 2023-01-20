@@ -24,7 +24,7 @@
   - name: add the default content that web server is serving
     ansible.builtin.file:
      path: /usr/share/nginx/html
-     state: present 
+     state: directory 
 
   - name: download frontend content
     ansible.builtin.unarchive:
